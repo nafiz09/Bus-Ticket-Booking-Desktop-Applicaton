@@ -1,0 +1,10 @@
+if (menuButton.getText() == "User") {
+            if (textField.getText().equals("Rittik") && passwordField.getText().equals("wsxedcrfvb")) {
+                label.setAlignment(Pos.CENTER);
+                label.setText("Login Successful");
+            }
+            else {
+                label.setAlignment(Pos.CENTER);
+                label.setText("Invalid user name or password");
+            }
+        }

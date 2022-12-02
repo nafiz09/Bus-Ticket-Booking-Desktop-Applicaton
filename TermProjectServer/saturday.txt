@@ -1,0 +1,4 @@
+Dhaka#Rajshahi#National Travels#HA121#10.00#Kallayanpur#Terminal#Non-AC#480#16.30#
+Dhaka#Chittagong#Green Line#KHA512#8.30#Sayedabad#Station#AC#480#16.30#
+Dhaka#Rajshahi#Desh Travels#GHA343#9.00#Mohakhali#Terminal#Non-AC#480#15.30#
+Dhaka#Rajshahi#Grameen Travels#BA836#11.00#Kallyanpur#Terminal#AC#1000#19.30#

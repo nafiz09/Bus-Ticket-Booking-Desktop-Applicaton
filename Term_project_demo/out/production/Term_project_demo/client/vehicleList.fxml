@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="446.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.VehicleList">
+    <children>
+        <TableView fx:id="tableView" onMouseClicked="#onMousePressed" prefHeight="446.0" prefWidth="771.0">
+            <columns>
+                <TableColumn fx:id="agencyName" prefWidth="152.00006103515625" text="Agency Name" />
+                <TableColumn fx:id="coachNo" prefWidth="86.4000244140625" text="Coach No." />
+                <TableColumn fx:id="time" minWidth="0.0" prefWidth="75.199951171875" text="Time" />
+                <TableColumn fx:id="startingCounter" prefWidth="105.5999755859375" text="Starting Counter" />
+                <TableColumn fx:id="endCounter" prefWidth="104.79995727539062" text="End Counter" />
+                <TableColumn fx:id="coachType" minWidth="8.0" prefWidth="90.4000244140625" text="Coach Type" />
+                <TableColumn fx:id="fare" minWidth="0.0" prefWidth="60.00006103515625" text="Fare" />
+                <TableColumn fx:id="arrivalTime" prefWidth="99.20001220703125" text="Arrival Time" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
